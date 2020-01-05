@@ -1,0 +1,10 @@
+ {
+    "devDependencies": {
+        "node-sass": "4.5.0" 
+    },
+    "scripts": {
+      "test": "npm run scss-compile", 
+      "scss-compile": "node-sass --output-style compressed -rw assets/scss -o assets/css", 
+      "watch": "npm run scss-compile" 
+     }
+ }
